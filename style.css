@@ -1,0 +1,184 @@
+body {  
+    margin: 0;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'Charmonman', cursive;
+    background-color: #F2F2F0;
+}
+header {
+    background-repeat: no-repeat;
+    background-size: cover;  
+    min-height: 300px;
+background-image: url(https://taobin-beverage.web.app/assets/images/drink_category_th/adv_img_2.png);
+}
+nav {
+    /* background-color: blueviolet; */
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.prev {
+    font-size: 30px;
+    color: saddlebrown;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.button-group button {
+    background-color:transparent;
+border-radius:28px;
+border:1px solid saddlebrown;
+display:inline-block;
+font-size:17px;
+padding:16px 31px;
+text-decoration:none;
+text-shadow:0px 1px 0px #ffffff;
+cursor: pointer;
+}
+
+.welcome {
+    font-size: 50px;
+    text-align: center;
+    color: darksalmon;
+    padding-top: 30px;
+}
+.select-header {
+    font-size: 60px;
+    text-align: center;
+    /* background-color: chartreuse; */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.img1 {
+    position: absolute;
+    left: 210px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.text1 {
+    position: absolute;
+    left: 236px;
+    padding-top: 248px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.img2 {
+    position: absolute;
+    right: 190px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.text2 {
+    position: absolute;
+    right: 16.7rem;
+    padding-top: 248px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.img3 {
+    position: absolute;
+    left: 165px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.text3 {
+    position: absolute;
+    left: 17.6rem;
+    padding-top: 248px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.img4 {
+    position: absolute;
+    right: 190px;
+    bottom: 90px;
+    cursor: pointer;
+}
+.text4 {
+    position: absolute;
+    right: 15.5rem;
+    padding-top: 220px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.textS {
+    position: absolute;
+    right: 13.4rem;
+    padding-top: 253px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.img5 {
+    position: absolute;
+    left: 210px;
+    bottom: 105px;
+    cursor: pointer;
+}
+.text5 {
+    position: absolute;
+    left: 14.7rem;
+    padding-top: 248px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.img6 {
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    cursor: pointer;
+}
+.text6 {
+    position: absolute;
+    right: 13.3rem;
+    padding-top: 248px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+.circle {
+    background-color: pink;
+    border-radius: 100%;    
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    display: block;
+    text-align: center; 
+    margin: 40px;
+    cursor: pointer;
+}
+.items-row {
+    /* background-color: blanchedalmond; */
+    /* border: 1px dashed lime; */
+    position: relative;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.item>img {
+    width: 100px;
+    height: 100px;
+}
+/* nav > * {
+    color: red;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px 16px;
+} 
+nav > *:first-child {
+    margin: right 400px;
+} */
